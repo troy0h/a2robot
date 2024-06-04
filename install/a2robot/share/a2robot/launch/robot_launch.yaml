@@ -1,0 +1,16 @@
+launch:
+
+- node:
+    pkg: "a2robot"
+    exec: "camera"
+    name: "camera"
+
+- node:
+    pkg: "a2robot"
+    exec: "ai"
+    name: "ai"
+
+- node:
+    pkg: "a2robot"
+    exec: "arduino"
+    name: "arduino"
